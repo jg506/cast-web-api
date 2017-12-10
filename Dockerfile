@@ -4,5 +4,4 @@ RUN apk add --update git && \
   rm -rf /tmp/* /var/cache/apk/*
 RUN git clone https://github.com/vervallsweg/cast-web-api.git . && \
   npm install
-EXPOSE 3003
 
